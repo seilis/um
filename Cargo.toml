@@ -1,0 +1,13 @@
+[package]
+name = "um"
+version = "0.1.0"
+edition = "2021"
+license = "MPL-2.0"
+authors = [
+    "Aaron Seilis <aaron.seilis@seilis.ca>",
+]
+description = "A tool for managing users and configuration across machines"
+readme = "README.md"
+
+[dependencies]
+clap = { version = "4.5.17", features = ["cargo"] }
